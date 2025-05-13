@@ -14,6 +14,8 @@ Item {
         color: "#121212"  // Темный фон (почти черный)
 
 
+
+
         ScrollView {
             anchors.fill: parent
             anchors.margins: 20
