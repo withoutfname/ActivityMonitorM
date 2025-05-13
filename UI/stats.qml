@@ -9,9 +9,6 @@ Item {
     property int totalDurationLastYear: 0
     property int totalDurationAllTime: 0
     property int totalDurationToday: 0// Новое свойство для статистики за всё время
-
-
-
     Rectangle {
         anchors.fill: parent
         color: "#121212"  // Темный фон (почти черный)
