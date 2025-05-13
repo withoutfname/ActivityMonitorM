@@ -1,0 +1,16 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# База данных
+*.sql
+*.db
+
+# Логи и временные файлы
+*.log 
