@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49ea5fae-722e-4e1d-8764-797156e97bd5" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/ActivityMonitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/base.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/config.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/deletePage.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/fullCleaningPage.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/main.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/messageDialog.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/runningAppsPage.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/statCleaningPage.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/stats.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/viewPage.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/opened_windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/app_monitor_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/delete_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/opened_windows_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/stat_cleaning_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/stats_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/tracked_apps_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/opened_windows_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/stat_cleaning_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/tracked_apps_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icon.ico" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2x1yq1UVLF7xypFJ01zhIplGpOT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/emilm/PycharmProjects/ActivityMonitor",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emilm\PycharmProjects\ActivityMonitor" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-2ee2454479a3-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.122" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49ea5fae-722e-4e1d-8764-797156e97bd5" name="Changes" comment="" />
+      <created>1747120063171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747120063171</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+</project>
