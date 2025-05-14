@@ -1,5 +1,6 @@
 from functools import wraps
 import psycopg2
+
 '''
 def get_db_connection():
     """
@@ -8,11 +9,12 @@ def get_db_connection():
     return psycopg2.connect(
         dsn="postgresql://neondb_owner:npg_VPAK5HeQXYy9@ep-royal-waterfall-a2xk5e0o-pooler.eu-central-1.aws.neon.tech/activitydb?sslmode=require"
     )
-    
-  
-    
-    
+
+
+
+
 '''
+
 
 def get_db_connection():
     """
@@ -74,10 +76,12 @@ def ensure_tables_exist(func):
     """
     Декоратор, который гарантирует, что таблицы существуют перед выполнением функции.
     """
+
     @wraps(func)
     def wrapper(*args, **kwargs):
         create_tables()  # Создаем таблицы, если их нет
         return func(*args, **kwargs)  # Выполняем основную функцию
+
     return wrapper
 
 
@@ -305,7 +309,6 @@ def cleanup_incomplete_activities():
         print(f"Ошибка при очистке незавершенных активностей: {e}")
 
 
-
 @ensure_tables_exist
 def get_app_stats():
     """
@@ -399,7 +402,6 @@ def delete_incomplete_activities():
         print(f"Ошибка при удалении незавершенных активностей: {e}")
 
 
-
 def get_app_stats_by_interval(interval):
     """
     Возвращает статистику по приложениям за указанный интервал времени.
@@ -435,6 +437,7 @@ def get_app_stats_by_interval(interval):
 
     return stats
 
+
 @ensure_tables_exist
 def get_app_stats_last_2_weeks():
     """
@@ -442,12 +445,14 @@ def get_app_stats_last_2_weeks():
     """
     return get_app_stats_by_interval('2 weeks')
 
+
 @ensure_tables_exist
 def get_app_stats_last_month():
     """
     Возвращает статистику по приложениям за последний месяц.
     """
     return get_app_stats_by_interval('1 month')
+
 
 @ensure_tables_exist
 def get_app_stats_last_year():
@@ -531,7 +536,6 @@ def get_app_stats_all_time():
     return stats
 
 
-
 @ensure_tables_exist
 def add_or_update_alias(name, process_name, exe_path, alias):
     """
@@ -566,6 +570,7 @@ def add_or_update_alias(name, process_name, exe_path, alias):
     except Exception as e:
         print(f"Ошибка при обновлении псевдонима: {e}")
         raise  # Пробрасываем исключение дальше, чтобы обработать его в вызывающем коде
+
 
 @ensure_tables_exist
 def get_all_aliases():
